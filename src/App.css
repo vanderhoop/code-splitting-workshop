@@ -1,7 +1,34 @@
 .App {
   text-align: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #efefef;
+}
+
+h1 {
+  margin: 0;
+  padding: 1rem;
 }
 
 button {
   margin-top: 4rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: unset;
+}
+
+img.lurch {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all 1000ms ease-out;
+  transform: translateY(700px);
+}
+
+img.lurch.mounted {
+  transform: translateY(0);
 }
