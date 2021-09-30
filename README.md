@@ -1,3 +1,31 @@
+# Code Splitting
+
+### Learning Objectives
+
+After this session, attendees should be able to:
+* explain the use-case and benefits of code-splitting
+* use dynamic imports to dynamically import code as needed
+* explain what treeshaking is, and why the benefits of dynamic imports can easily be lost when code imported in a non-lazy manner elsewhere in the app.
+
+
+### "The Heck is Code-Splitting? Sounds painful."
+
+
+> Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
+
+attribution: https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting
+
+
+> As an application grows in complexity or is maintained, CSS and JavaScripts files or bundles grow in byte size, especially as the number and size of included third-party libraries increases. To prevent the requirement of downloading ginormous files, scripts can be split into multiple smaller files. Then features required at page load can be downloaded immediately with additional scripts being lazy loaded after the page or application is interactive, thus improving performance. While the total amount of code is the same (and perhaps even a few bytes larger), the amount of code needed during initial load can be reduced.
+
+### Common Use Cases That We See In Jupiter
+
+* long pages (why load the whole page when you can load and render as-needed?)
+* routes in a single-page
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
