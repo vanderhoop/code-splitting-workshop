@@ -18,6 +18,10 @@ attribution: https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting
 1. routes in a single-page app
 1. long pages (why load the whole page when you can load and render as-needed?)
 
+### Using The Dynamic `import()` Syntax
+
+You're all familiar with the basic import syntax. We use it everyday. Let's take a look at some imports in jupiter.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
